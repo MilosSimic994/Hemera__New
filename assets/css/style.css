@@ -100,7 +100,7 @@ footer {
   margin: 0;
   padding: 7rem;
 }
-footer section {
+footer div {
   display: flex;
   align-items: center;
   justify-content: space-around;
