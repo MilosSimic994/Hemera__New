@@ -133,13 +133,13 @@ main section {
 
 .slide-article img {
   margin-top: 7rem;
-  width: 70vw;
+  width: 85vw;
   height: 60vh;
 }
 
 .title-article {
   margin: 5rem 0;
-  width: 70vw;
+  width: 85vw;
   text-transform: uppercase;
   font-size: 3.5rem;
   text-align: left;
@@ -148,9 +148,9 @@ main section {
 }
 
 .about-article {
-  width: 70vw;
-  background-color:  #1D6A96;
-  color: beige;
+  width: 85vw;
+  background-color:  #283b42;
+  color: #d1dddd;
   text-align: left;
   padding: 1rem;
   font-size: 1.5rem;
@@ -160,7 +160,7 @@ main section {
 .cards-article {
   margin: 1rem 0 1rem 0;
   padding: 1rem;
-  width: 70vw;
+  width: 85vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -193,34 +193,69 @@ main section {
  /* filter: grayscale(100%); */
  background-attachment: fixed;
  border-radius: 10px 10px 0 0 ;
-  width: 70vw;
-  height: 15vw;
+  width: 85vw;
+  height: 35vh;
   color: blue;
 }
 
 .services {
   /* background-color:rgba(200, 200, 200,.4); */
   margin: 2rem 0;
-  padding: 3rem;
+  padding: 2.5rem;
   width: 70vw;
   display: flex;
   justify-content: space-around;
+  width: 85vw;
+  height: 55vh;
+  background-color: #283b42;;
 }
-.services-item {
-  border-radius: 10px;
+
+.services__item {
+  color: #d1dddd;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 20rem;
-  height: 24rem;
-  background: #283b42;
-  color: #85B8CB;
+  justify-content: baseline;
+  
 }
-.services-item img {
-  width: 6rem;
-  height: 6rem;
-  padding: 1rem;
+.services__item h1 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
 }
+.services__item p {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 0.5rem;
+}
+.services__item img {
+  width: 4rem;
+  height: 4rem;
+  margin-bottom: 2rem;
+}
+.services__item button {
+  width: 9rem;
+  height: 3.5rem;
+  margin-top: 2.5rem;
+  background: none;
+  border-radius: 10px;
+  border: 4px solid #955197;;
+  color: #955197;;
+  font-size: 1.3rem;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+}
+.services__item button:hover {
+  border: none;
+  border: 6px solid #955197;;
+  font-size: 2rem;
+  color: #d1dddd;
+  transition-property: border;
+  transition-duration: 500ms;
+}
+
+
+
 @media (max-width: 360px){
   .slide-article {
     background-image: url('/assets/images/images/eucerin2.jpg');
@@ -235,14 +270,14 @@ main section {
 .about-section {
   display: flex;
   flex-direction: column;
-  align-items: stretch;
-  width: 70vw;
+  align-items: baseline;
+  width: 85vw;
   margin: 0;
   padding: 0;
 }
 
 .about-img_div {
-  width: 70vw;
+  width: 85vw;
   height: 70vh;
 background-image: url('../images/images/dove\ 7.jpg');
 background-attachment: fixed;
@@ -261,7 +296,13 @@ z-index: -21;
   color:  #1D6A96;
   border-left: 6px solid #1D6A96;;
 }
+.about-section article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
 .desc-right {
+  width: 65vw;
   font-size: 1.3rem;
   font-weight: 600;
   padding-right: 2rem;
@@ -311,14 +352,15 @@ z-index: -21;
 }
 .full-price {
   margin: 9rem  0 2rem  ;
-  border-bottom: 6px solid rgba(80, 57, 184,0.5);
+  border-bottom: 6px solid #283b42;
   color: #1D6A96;
-  font-size: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
 }
 
 .full-price a {
   text-decoration: none;
-  color: rgba(80, 57, 184, 1);
+  color: #283b42;
 }
 .articles-div {
   display: flex;
@@ -326,34 +368,41 @@ z-index: -21;
   flex-wrap: wrap;
   margin-top: 7rem;
   padding: 3rem;
-
+  width: 85vw;
 }
 .articles-div div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   margin: 1.6rem;
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   padding: 0.5rem;
-  width: 8rem;
+  width: 14rem;
+  height: 18rem;
+  font-size: 1rem;
 }
-
 .articles-div div:hover{
   box-shadow: gray 5px 5px 5px 5px;
   font-weight: 500;
 
 }
-
 .articles-div div:hover p {
-  color: rgba(80, 57, 184,1);;
+  color: #283b42;
+  font-weight: 700;
+  font-size: 1rem;
 }
-
-
 .articles-div img {
-  width: 6rem;
-  height: 6rem;
+  width: 10rem;
+  height: 10rem;
   margin: 1.3rem 0;
 }
 @media(max-width: 360px) {
   .main {
     width: 100%;
+  }
+  .articles-div {
+    padding: 0;
   }
   .articles-div img {
     width: 3rem;
@@ -362,7 +411,20 @@ z-index: -21;
   }
   .articles-div div {
     width: 5rem;
+    height: 5rem;
     margin: 1rem;
+    padding: 0;
+    font-size: 0.5rem;
+  }
+  .articles-div div:hover{
+    box-shadow: none;
+    font-size: 0.5rem;
+    padding: 0;
+    font-weight: 100;
+  }
+  .articles-div div:hover p {
+    font-weight: 100;
+    font-size: 0.5rem;
   }
 }
 
