@@ -22,20 +22,21 @@ header {
   margin: 0;
   padding: 0;
   width: 100%;
+  align-items: flex-end;
   display: flex;
   flex-direction: column;
-  /* background: rgb(206, 205, 196); */
   position: fixed;
   top: 0;
   z-index: 20;
 }
 .header__div{
-  width: 100vw;
+  background-color: white;
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
 .logo {
-  
+  padding: 1rem;
   margin-left: 1rem;
   width: 5rem;
   height: 5rem;
@@ -46,31 +47,48 @@ header {
   text-decoration: none;
   margin: 1rem;
 }
-.nav {
+.nav-list{
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  list-style-type: none;
+}
+
+.nav-list a {
+  padding: 2rem;
+  text-decoration: none;
+  color: #1D6A96;
+  font-size: 1.5rem;
+}
+.nav--mob {
   display: none;
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  height: 80vh;
+  height: 85vh;
   width: 100%;
   margin-top: 7rem;
-  margin-bottom: 0;
+  
   background-color:#1D6A96;
+  align-self: flex-end;
 }
 .display {
   display: flex;
+  
 }
 
 .display_none {
   display: none;
 }
-.nav-list a {
+
+.nav-list-mob a {
   list-style: none;
   margin-right: 2rem;
   
 }
 
-.nav-list a {
+.nav-list-mob a {
   text-decoration: none;
   padding: 0.5rem 1rem ;
   color:rgba(255, 247, 247, 0.2);
@@ -79,14 +97,15 @@ header {
   
 }
 
-.nav-list li:hover,
-.nav-list li:active {
+.nav-list-mob li:hover,
+.nav-list-mob li:active {
   border-radius: 20px;
   text-decoration: none;
   border-bottom: 4px solid rgb(255, 247, 247);
   color: rgb(255, 247, 247);
 }
 .menu {
+  display: none;
   color: #1D6A96;
   margin-right: 2rem;
   text-decoration: underline;
@@ -148,16 +167,43 @@ main section {
 }
 
 .about-article {
+  display: flex;
+  flex-direction: column;
   width: 85vw;
   background-color:  #283b42;
   color: #d1dddd;
-  text-align: left;
   padding: 1rem;
-  font-size: 1.5rem;
+  margin-bottom: 7rem;
   border-radius: 20px 20px 0 0;
+  position: relative;
+
+}
+.about-article p {
+  text-align: left;
+  width: 70%;
+  margin: 2rem 1rem;
+  line-height: 3rem;
+  font-size: 2rem;
+  
+  
+
+}
+#different {
+  color: #85b8cb;
+  text-align: left;
+  margin-left: 24rem ;
+}
+.about-article img {
+  filter: grayscale(80%);
+  width: 24rem;
+  position: absolute;
+  bottom: -4em;
+  left: -1em;
+  z-index: 2;
 }
 
 .cards-article {
+  position: relative;
   margin: 1rem 0 1rem 0;
   padding: 1rem;
   width: 85vw;
@@ -166,6 +212,15 @@ main section {
   justify-content: space-around;
   border: 2px solid #1D6A96;;
   border-radius: 0 0 20px 20px;
+}
+
+.cards-article h1 {
+  position: absolute;
+  align-self: center;
+  z-index: -4;
+  text-transform: uppercase;
+  font-size: 28rem;
+  color: rgba(189, 185, 185, .2);
 }
  .div-card {
   display: flex;
@@ -254,14 +309,52 @@ main section {
   transition-duration: 500ms;
 }
 
+@media(max-width: 1440px) {
 
+ .services__item h1 {
+  font-size: 1.5rem;
+ }
+ .services__item p {
+   font-size: 1rem;
+ }
+ .services__item img {
+   width: 2rem;
+   height: 2rem;
+ }
+}
+@media(max-width: 1205px){
+  .body {
+    display: flex;
+    justify-content: center;
+  }
+  .services {
+    height: 20%;
+    display: flex;
+    align-items: center;
+  }
+  .services__item p {
+    display: none;
+  }
+}
+@media(max-width: 800px) {
+  .menu {
+    display: flex;
+  }
+  .nav {
+    display: none;
+  }
+}
 
 @media (max-width: 360px){
+
   .slide-article {
     background-image: url('/assets/images/images/eucerin2.jpg');
   }
   .title-article {
     font-size: 2rem;
+  }
+  .about-article p {
+    font-size: 1.4rem;
   }
 }
 
@@ -274,6 +367,7 @@ main section {
   width: 85vw;
   margin: 0;
   padding: 0;
+  
 }
 
 .about-img_div {
@@ -287,6 +381,7 @@ z-index: -21;
 }
 
 .desc-left {
+  
   width: 65vw;
   font-size: 1.3rem;
   font-weight: 600;
