@@ -12,7 +12,7 @@ html, body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  width: 100vw;
   height: 100%;
   font-family: 'Mali', cursive;
 }
@@ -21,17 +21,17 @@ header {
   
   margin: 0;
   padding: 0;
-  width: 100%;
-  align-items: flex-end;
+  width: 100vw;
+  /* align-items: flex-end; */
   display: flex;
   flex-direction: column;
-  /* position: fixed; */
+  position: fixed;
   top: 0;
   z-index: 20;
 }
 .header__div{
   background-color: white;
-  width: 100%;
+  width: 100vw;
   display: flex;
   justify-content: space-between;
 }
@@ -53,6 +53,7 @@ header {
   justify-content: space-around;
   width: 100%;
   list-style-type: none;
+  
 }
 
 .nav-list a {
@@ -110,7 +111,7 @@ header {
 
 /* FOOTER */
 footer {
-  width: 100%;
+  width: 100vw;
   height: 20rem;
   background-color: #1D6A96;
   display: flex;
@@ -133,7 +134,7 @@ footer img {
 
 /* HOME */
 main {
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -420,96 +421,71 @@ main section {
 }
 
 /* ABOUT */
-
-#main-about {
-  background: url('/assets/images/images/deskImg.jpeg');
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  
-}
 .about-section {
-  /* background: url('/assets/images/images/deskImg.jpeg') no-repeat;
-  background-blend-mode: lighten;
-  background-size: cover; */
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
-  width: 85vw;
-  margin: 0;
+  align-items: center;
+}
+
+.title-about {
+  background-color: #030305;
+  width: 100vw;
+  height: 80vh;
+  margin: 5rem 0 0 0 ;
   padding: 0;
-  position: relative;
-}
 
-/* .about-img_div {
-  width: 85vw;
-  height: 70vh;
-background-image: url('../images/images/dove\ 7.jpg');
-background-attachment: fixed;
-background-size: cover;
-filter: grayscale(70);
-z-index: -21;
-} */
-
-.desc-left {
-  
-  width: 45vw;
-  font-size: 1.3rem;
-  font-weight: 600;
-  padding: 2rem;
-  margin: 4rem 25rem 4rem 0 ;
-  text-align: left;
-  color:  #1D6A96;
-  border-left: 6px solid #1D6A96;;
 }
-.about-section article {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  position: relative;
-}
-
-.desc-right {
-  width: 45vw;
-  font-size: 1.3rem;
-  font-weight: 600;
-  padding-right: 2rem;
-  margin: 4rem 0 4rem 25rem ;
-  text-align: right;
-  background-color: rgba(80, 57, 184,0.1);;
-  color:  #1D6A96;
-  border-right: 6px solid #1D6A96;
-  border-radius: 10px 0 0 10px;
-}
-.about-section article img {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  z-index: -2;
-}
-.about-section p::first-letter {
-  padding-left: 1rem;
-}
-.about-section h1 {
-  
-  margin: 7rem 0 3rem;
-  width: 70vw;
-  text-transform: uppercase;
+.title-about h1 {
+  margin-top: 7rem;
+  color: #efb730;
   font-size: 4rem;
   text-align: left;
-  color: #1D6A96;
-  text-decoration: underline;
+  padding: 8rem 0 2rem 4rem;
+  display: block;
+}
+.title-about h2 {
+  text-align: left;
+  padding-left: 12rem;
+  color: #f2f4ef;
+  font-size: 2.5rem;
+}
+.about-img {
+  background: url('/assets/images/images/aboutimg.jpeg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 60vh;
+}
+.about-description {
+  background-color: #f2f4ef;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-@media(max-width: 360px) {
-  .about-section h1 {
-    font-size: 2rem;
-  }
+.about-description h2 {
+  color: #efb730;
+  font-size: 2.7rem;
+  text-align: left;
+  width: 70vw;
+  padding: 2rem 6rem;
 }
-
-
+.about-description p {
+  width: 70vw;
+  color: #030305;
+  font-size: 1.4rem;
+  text-align: left;
+  padding: 2rem;
+}
 /* PRODUCTS */
 
-
+#product-bg {
+  background-color: #f2f4ef;
+}
 #select {
   font-size: 1.2rem;
   width: 12rem;
@@ -535,6 +511,7 @@ z-index: -21;
   color: #283b42;
 }
 .articles-div {
+  
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -543,6 +520,8 @@ z-index: -21;
   width: 85vw;
 }
 .articles-div div {
+  background-color: white;
+  color: #1D6A96;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
