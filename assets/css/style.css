@@ -47,8 +47,8 @@ header {
   text-decoration: none;
   margin: 1rem;
 }
+
 .nav-list{
-  color: black;
   display: flex;
   justify-content: space-around;
   width: 100%;
@@ -139,6 +139,7 @@ main {
   flex-direction: column;
   align-items: center;
   margin: 0;
+  padding: 0;
 }
 main section {
   width: 70vw;
@@ -213,7 +214,7 @@ main section {
   align-self: center;
   z-index: -4;
   text-transform: uppercase;
-  font-size: 27rem;
+  font-size: 25rem;
   color: rgba(189, 185, 185, .2);
 }
  .div-card {
@@ -472,14 +473,14 @@ main section {
   font-size: 2.7rem;
   text-align: left;
   width: 70vw;
-  padding: 2rem 6rem;
+  padding: 4rem 0 
 }
 .about-description p {
   width: 70vw;
   color: #030305;
   font-size: 1.4rem;
   text-align: left;
-  padding: 2rem;
+  padding: 2rem 0;
 }
 /* PRODUCTS */
 
@@ -490,13 +491,13 @@ main section {
   font-size: 1.2rem;
   width: 12rem;
   background-color: none;
-  color: rgba(80, 57, 184, 1);
+  color: #030305;
   padding: 0.4rem;
   border-radius: 10px;
   outline: none;
 }
 .option:hover {
-  background: rgba(80, 57, 184, 1);
+  background: #030305;
 }
 .full-price {
   margin: 9rem  0 2rem  ;
@@ -585,19 +586,20 @@ main section {
 .contact-holder {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  width: 100%;
-} 
+  align-items: center;
+  width: 100vw;
+}  
 
-.contact-holder article {
+.contact-holder-div {
   display: flex;
   justify-content: center;
-  width: 70vw;
+  width: 100vw;
 }
 
 .contact-img {
   background: url('/assets/images/images/kontakt.jpg') no-repeat;
+  /* background-image: linear-gradient(140deg,rgba(246, 246, 246, 0.2) 0%,rgba(156, 138, 199, 0.2) 100%); */
   background-size: cover;
   filter: grayscale(10);
   background-attachment: fixed;
@@ -605,25 +607,29 @@ main section {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 100vw;
   height: 70vh;
-  padding: 10rem 0 5rem 0;
+  padding: 0rem 0 5rem 0;
 }
 
 .contact-txt {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
+  align-items: center;
   font-size: 1rem;
   text-transform: capitalize;
-  padding: 1.3rem 2.5rem;
+  padding: 1.3rem;
   color: #1D6A96;
-  width: 70vw;;
+  width: 100%;
   text-align: left;
+}
+.contact-txt h3 {
+  font-size: 1.6rem;
 }
 
 .contact-txt p{
   padding: 1rem 0;
+  font-size: 1.2rem;
 }
 
 @media(max-width: 360px) {
