@@ -1,9 +1,9 @@
 /*type------------------------------------------*/
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  
+  box-sizing: border-box;
+  /* outline: 1px solid red; */
 }
 html, body{
   padding:0;
@@ -13,7 +13,7 @@ html, body{
   flex-direction: column;
   align-items: center;
   width: 100vw;
-  height: 100%;
+  /* height: 100vh; */
   font-family: 'Mali', cursive;
 }
 
@@ -28,10 +28,10 @@ header {
   position: fixed;
   top: 0;
   z-index: 20;
-}
-.header__div{
-  background-color: white;
-  width: 100vw;
+} 
+ .header__div{
+  background-color: rgb(93, 64, 64);
+  max-width: 100vw;
   display: flex;
   justify-content: space-between;
 }
@@ -47,15 +47,15 @@ header {
   text-decoration: none;
   margin: 1rem;
 }
-
+.nav {
+  margin-right: 3rem;
+}
 .nav-list{
   display: flex;
   justify-content: space-around;
   width: 100%;
   list-style-type: none;
-  
 }
-
 .nav-list a {
   padding: 2rem;
   text-decoration: none;
@@ -112,6 +112,7 @@ header {
 /* FOOTER */
 footer {
   width: 100vw;
+  max-width: 100vw;
   height: 20rem;
   background-color: #1D6A96;
   display: flex;
@@ -134,7 +135,7 @@ footer img {
 
 /* HOME */
 main {
-  width: 100vw;
+  max-width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -179,9 +180,6 @@ main section {
   margin: 2rem 1rem;
   line-height: 3rem;
   font-size: 2rem;
-  
-  
-
 }
 #different {
   color: #85b8cb;
@@ -214,6 +212,7 @@ main section {
   align-self: center;
   z-index: -4;
   text-transform: uppercase;
+  max-width: 100vw;
   font-size: 25rem;
   color: rgba(189, 185, 185, .2);
 }
@@ -302,6 +301,11 @@ main section {
   color: #d1dddd;
   transition-property: border;
   transition-duration: 500ms;
+}
+@media(max-width: 1750px) {
+  .cards-article h1 {
+    font-size: 22rem;
+  }
 }
 
 @media(max-width: 1440px) {
@@ -423,7 +427,7 @@ main section {
 
 /* ABOUT */
 .about-section {
-  width: 100%;
+  width: 100vw;
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
@@ -462,7 +466,7 @@ main section {
 }
 .about-description {
   background-color: #f2f4ef;
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
