@@ -5,7 +5,7 @@ let cardsArticle = document.querySelector('.cards-article')
 let i = 0;
 let time = 5000;
 let images = [
-    '../assets/images/images/eucerin2.jpg',
+    '../assets/images/images/fa.jpg',
     '../assets/images/images/niveahd2.jpg',
     '../assets/images/images/dove 7.jpg'
 ];

@@ -15,6 +15,7 @@ html, body{
   width: 100vw;
   /* height: 100vh; */
   font-family: 'Mali', cursive;
+  scroll-behavior: smooth;
 }
 body::-webkit-scrollbar {
   display: none;
@@ -117,12 +118,13 @@ footer {
   height: 20rem;
   background-color: #1D6A96;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0;
-  padding: 7rem;
+  
 }
-footer div {
+.footer-links {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -132,6 +134,13 @@ footer img {
   width: 4rem;
   height: 4rem;
   margin: 0 2rem;
+}
+.footer-txt {
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-end;
+ height: 7rem;
+ color: #fff;
 }
 
 /* HOME */
@@ -150,7 +159,7 @@ main section {
 .slide-article img {
   margin-top: 7rem;
   width: 85vw;
-  height: 60vh;
+  height: 80vh;
 }
 
 .title-article {
@@ -256,7 +265,7 @@ main section {
   display: flex;
   justify-content: space-around;
   width: 85vw;
-  height: 55vh;
+  height: 75vh;
   background-color: #283b42;;
 }
 
@@ -553,6 +562,20 @@ main section {
   width: 10rem;
   height: 10rem;
   margin: 1.3rem 0;
+}
+
+.go-top {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  background-color: #83acbb;
+  border-radius: 50%;
+  padding: 1rem;
+  
+}
+.go-top img {
+ width: 2rem;
+ height: 2rem;
 }
 @media(max-width: 1440px) {
   .main {
