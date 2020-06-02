@@ -1025,6 +1025,7 @@ const render = (product) => {
   name.innerText = product.name;
   let img = document.createElement("img");
   img.src = product.avatar;
+  img.alt = 'kozmeticki-proizvodi-licna-kozmetika'
   let txt = document.createElement("p");
   txt.innerText = product.desc;
 
