@@ -131,7 +131,8 @@ let products = [
   },
   {
     name: "Dove",
-    avatar: "../assets/images/images/Dove img/doveRollCucumber&GreenTea-min.jpg",
+    avatar:
+      "../assets/images/images/Dove img/doveRollCucumber&GreenTea-min.jpg",
     desc: "Roll-on \n Cocumber & Green Tea, 50ml",
   },
   {
@@ -176,7 +177,8 @@ let products = [
   },
   {
     name: "Dove",
-    avatar: "../assets/images/images/Dove img/doveShampooDaily Moisture-min.jpg",
+    avatar:
+      "../assets/images/images/Dove img/doveShampooDaily Moisture-min.jpg",
     desc: "Šampon za kosu \n Daily Moisture, 250ml",
   },
   {
@@ -208,7 +210,8 @@ let products = [
   },
   {
     name: "Nivea",
-    avatar: "../assets/images/images/Nivea img/nivea deo 150 ml W-fresh-min.jpg",
+    avatar:
+      "../assets/images/images/Nivea img/nivea deo 150 ml W-fresh-min.jpg",
     desc: "Nivea deo \n Fresh Comfort, 150ml",
   },
   {
@@ -524,7 +527,8 @@ let products = [
     avatar:
       "../assets/images/images/Nivea img/nivea dush gel 250ml M-vitality fresh-min.jpg",
     desc: "Gel za tuširanje \n Vitality Fresh, 250ml",
-  }, {
+  },
+  {
     name: "Nivea",
     avatar:
       "../assets/images/images/Nivea img/nivea dush gel 250ml W-agave blu&lavanda-min.jpg",
@@ -532,134 +536,112 @@ let products = [
   },
   {
     name: "Fa",
-    avatar:
-      "../assets/images/images/Fa img/fa active pure-min.jpg",
+    avatar: "../assets/images/images/Fa img/fa active pure-min.jpg",
     desc: "Gel za tuširanje \n Acitve Pure, 250ml",
   },
   {
     name: "Fa",
-    avatar:
-      "../assets/images/images/Fa img/fa active sport-min.jpg",
+    avatar: "../assets/images/images/Fa img/fa active sport-min.jpg",
     desc: "Gel za tuširanje \n Active Sport, 250ml",
   },
   {
     name: "Fa",
-    avatar:
-      "../assets/images/images/Fa img/fa aloe vera-min.jpg",
+    avatar: "../assets/images/images/Fa img/fa aloe vera-min.jpg",
     desc: "Gel za tuširanje \n Aloe Vera, 250ml",
   },
   {
     name: "Fa",
-    avatar:
-      "../assets/images/images/Fa img/fa amazon spirit-min.jpg",
+    avatar: "../assets/images/images/Fa img/fa amazon spirit-min.jpg",
     desc: "Gel za tuširanje \n Amazon Spirit, 250ml",
   },
   {
     name: "Fa",
-    avatar:
-      "../assets/images/images/Fa img/fa blue lotus-min.jpg",
+    avatar: "../assets/images/images/Fa img/fa blue lotus-min.jpg",
     desc: "Gel za tuširanje \n Blue Lotus, 250ml",
   },
   {
     name: "Fa",
-    avatar:
-      "../assets/images/images/Fa img/fa caribbean-min.jpg",
+    avatar: "../assets/images/images/Fa img/fa caribbean-min.jpg",
     desc: "Gel za tuširanje \n Caribbean, 250ml",
   },
   {
     name: "Fa",
-    avatar:
-      "../assets/images/images/Fa img/fa coconaut milk-min.jpg",
+    avatar: "../assets/images/images/Fa img/fa coconaut milk-min.jpg",
     desc: "Gel za tuširanje \n Coconut Milk, 250ml",
   },
   {
     name: "Fa",
-    avatar:
-      "../assets/images/images/Fa img/fa comfort dive-min.jpg",
+    avatar: "../assets/images/images/Fa img/fa comfort dive-min.jpg",
     desc: "Gel za tuširanje \n Comfort Dive, 250ml",
   },
   {
     name: "Fa",
-    avatar:
-      "../assets/images/images/Fa img/fa divine moments-min.jpg",
+    avatar: "../assets/images/images/Fa img/fa divine moments-min.jpg",
     desc: "Gel za tuširanje \n Divine Moments, 250ml",
   },
   {
     name: "Fa",
-    avatar:
-      "../assets/images/images/Fa img/fa energy feeling-min.jpg",
+    avatar: "../assets/images/images/Fa img/fa energy feeling-min.jpg",
     desc: "Gel za tuširanje \n Energy Feelings, 250ml",
   },
   {
     name: "Fa",
-    avatar:
-      "../assets/images/images/Fa img/fa fan edition-min.jpg",
+    avatar: "../assets/images/images/Fa img/fa fan edition-min.jpg",
     desc: "Gel za tuširanje \n Fan Editions, 250ml",
   },
   {
     name: "Fa",
-    avatar:
-      "../assets/images/images/Fa img/fa festival glam-min.jpg",
+    avatar: "../assets/images/images/Fa img/fa festival glam-min.jpg",
     desc: "Gel za tuširanje \n Festival Glam, 250ml",
   },
   {
     name: "Fa",
-    avatar:
-      "../assets/images/images/Fa img/fa fidji dream-min.jpg",
+    avatar: "../assets/images/images/Fa img/fa fidji dream-min.jpg",
     desc: "Gel za tuširanje \n Fidji Dream, 250ml",
   },
   {
     name: "Fa",
-    avatar:
-      "../assets/images/images/Fa img/fa honey cream-min.jpg",
+    avatar: "../assets/images/images/Fa img/fa honey cream-min.jpg",
     desc: "Gel za tuširanje \n Honey Cream, 250ml",
   },
   {
     name: "Fa",
-    avatar:
-      "../assets/images/images/Fa img/fa ipanema nights-min.jpg",
+    avatar: "../assets/images/images/Fa img/fa ipanema nights-min.jpg",
     desc: "Gel za tuširanje \n Ipanema Nights, 250ml",
   },
   {
     name: "Fa",
-    avatar:
-      "../assets/images/images/Fa img/fa oriental moments-min.jpg",
+    avatar: "../assets/images/images/Fa img/fa oriental moments-min.jpg",
     desc: "Gel za tuširanje \n Oriental Moments, 250ml",
   },
   {
     name: "Fa",
-    avatar:
-      "../assets/images/images/Fa img/fa pink jasmin-min.jpg",
+    avatar: "../assets/images/images/Fa img/fa pink jasmin-min.jpg",
     desc: "Gel za tuširanje \n Pink Jasmin, 250ml",
   },
   {
     name: "Fa",
-    avatar:
-      "../assets/images/images/Fa img/fa purple orhid-min.jpg",
+    avatar: "../assets/images/images/Fa img/fa purple orhid-min.jpg",
     desc: "Gel za tuširanje \n Purple Orchid, 250ml",
   },
   {
     name: "Fa",
-    avatar:
-      "../assets/images/images/Fa img/fa seduction power-min.jpg",
+    avatar: "../assets/images/images/Fa img/fa seduction power-min.jpg",
     desc: "Gel za tuširanje \n Seduction Power, 250ml",
   },
   {
     name: "Fa",
-    avatar:
-      "../assets/images/images/Fa img/fa yoghurt coconut-min.jpg",
+    avatar: "../assets/images/images/Fa img/fa yoghurt coconut-min.jpg",
     desc: "Gel za tuširanje \n Yoghurt Coconut, 250ml",
   },
   {
     name: "Colgate",
-    avatar:
-      "../assets/images/images/Colgate img/colgate zz max fresh.jpg",
+    avatar: "../assets/images/images/Colgate img/colgate zz max fresh.jpg",
     desc: "Četkica za zube, \n Max Fresh",
   },
   {
     name: "Colgate",
-    avatar:
-      "../assets/images/images/Colgate img/colgate zz 360 medium.jpg",
+    avatar: "../assets/images/images/Colgate img/colgate zz 360 medium.jpg",
     desc: "Četkica za zube, \n 360 Medium",
   },
   {
@@ -670,86 +652,72 @@ let products = [
   },
   {
     name: "Colgate",
-    avatar:
-      "../assets/images/images/Colgate img/colgate zz basic clean.jpg",
+    avatar: "../assets/images/images/Colgate img/colgate zz basic clean.jpg",
     desc: "Četkica za zube, \n Basic Clean",
   },
   {
     name: "Colgate",
-    avatar:
-      "../assets/images/images/Colgate img/colgate zz charcoal gold.jpg",
+    avatar: "../assets/images/images/Colgate img/colgate zz charcoal gold.jpg",
     desc: "Četkica za zube, \n Charcoal Gold",
   },
   {
     name: "Colgate",
-    avatar:
-      "../assets/images/images/Colgate img/colgate zz cibaca.jpg",
+    avatar: "../assets/images/images/Colgate img/colgate zz cibaca.jpg",
     desc: "Četkica za zube, \n Cibaca",
   },
   {
     name: "Colgate",
-    avatar:
-      "../assets/images/images/Colgate img/colgate zz deep clean.jpg",
+    avatar: "../assets/images/images/Colgate img/colgate zz deep clean.jpg",
     desc: "Četkica za zube, \n Deep Clean",
   },
   {
     name: "Colgate",
-    avatar:
-      "../assets/images/images/Colgate img/colgate zz double action.jpg",
+    avatar: "../assets/images/images/Colgate img/colgate zz double action.jpg",
     desc: "Četkica za zube, \n Double action",
   },
   {
     name: "Colgate",
-    avatar:
-      "../assets/images/images/Colgate img/colgate zz extra clean.jpg",
+    avatar: "../assets/images/images/Colgate img/colgate zz extra clean.jpg",
     desc: "Četkica za zube, \n Extra Clean",
   },
   {
     name: "Colgate",
-    avatar:
-      "../assets/images/images/Colgate img/colgate zz navigator.jpg",
+    avatar: "../assets/images/images/Colgate img/colgate zz navigator.jpg",
     desc: "Četkica za zube, \n Navigator",
   },
   {
     name: "Colgate",
-    avatar:
-      "../assets/images/images/Colgate img/colgate zz premier white.jpg",
+    avatar: "../assets/images/images/Colgate img/colgate zz premier white.jpg",
     desc: "Četkica za zube, \n Premier White",
   },
   {
     name: "Colgate",
-    avatar:
-      "../assets/images/images/Colgate img/colgate zz slim soft.jpg",
-    desc: "Četkica za zube, \n \ Slim Soft",
+    avatar: "../assets/images/images/Colgate img/colgate zz slim soft.jpg",
+    desc: "Četkica za zube, \n  Slim Soft",
   },
   {
     name: "Colgate",
-    avatar:
-      "../assets/images/images/Colgate img/colgate zz super junior.png",
+    avatar: "../assets/images/images/Colgate img/colgate zz super junior.png",
     desc: "Četkica za zube, \n Super Junior",
   },
   {
     name: "Colgate",
-    avatar:
-      "../assets/images/images/Colgate img/colgate zz super shine.jpg",
+    avatar: "../assets/images/images/Colgate img/colgate zz super shine.jpg",
     desc: "Četkica za zube, \n Super Shine",
   },
   {
     name: "Colgate",
-    avatar:
-      "../assets/images/images/Colgate img/colgate zz zig zag.jpg",
+    avatar: "../assets/images/images/Colgate img/colgate zz zig zag.jpg",
     desc: "Četkica za zube, \n Zig Zag",
   },
   {
     name: "Colgate",
-    avatar:
-      "../assets/images/images/Colgate img/colgate max white.jpg ",
+    avatar: "../assets/images/images/Colgate img/colgate max white.jpg ",
     desc: "Tečnost za ispiranje \n Max White",
   },
   {
     name: "Colgate",
-    avatar:
-      "../assets/images/images/Colgate img/colgate plax.jpg",
+    avatar: "../assets/images/images/Colgate img/colgate plax.jpg",
     desc: "Tečnost za ispiranje \n Plax",
   },
   {
@@ -760,50 +728,42 @@ let products = [
   },
   {
     name: "Colgate",
-    avatar:
-      "../assets/images/images/Colgate img/colgate p fresh gel.jpg",
+    avatar: "../assets/images/images/Colgate img/colgate p fresh gel.jpg",
     desc: "Pasta za zube, \n Fresh Gel",
   },
   {
     name: "Colgate",
-    avatar:
-      "../assets/images/images/Colgate img/colgate p herbal.jpg",
+    avatar: "../assets/images/images/Colgate img/colgate p herbal.jpg",
     desc: "Pasta za zube, \n Herbal",
   },
   {
     name: "Colgate",
-    avatar:
-      "../assets/images/images/Colgate img/colgate p lasting white.jpg",
+    avatar: "../assets/images/images/Colgate img/colgate p lasting white.jpg",
     desc: "Pasta za zube, \n Lasting White",
   },
   {
     name: "Colgate",
-    avatar:
-      "../assets/images/images/Colgate img/colgate p triple action.jpg",
+    avatar: "../assets/images/images/Colgate img/colgate p triple action.jpg",
     desc: "Pasta za zube, \n Triple action",
   },
   {
     name: "Colgate",
-    avatar:
-      "../assets/images/images/Colgate img/colgate p white instant.jpg",
+    avatar: "../assets/images/images/Colgate img/colgate p white instant.jpg",
     desc: "Pasta za zube, \n White Instant",
   },
   {
     name: "Colgate",
-    avatar:
-      "../assets/images/images/Colgate img/colgate p whitening.jpg",
+    avatar: "../assets/images/images/Colgate img/colgate p whitening.jpg",
     desc: "Pasta za zube, \n Whitening",
   },
   {
     name: "Dermomed",
-    avatar:
-      "../assets/images/images/Dermomed img/dermo aqua blue-min.jpg",
+    avatar: "../assets/images/images/Dermomed img/dermo aqua blue-min.jpg",
     desc: "Gel za tuširanje \n Aqua Blue, 300ml",
   },
   {
     name: "Dermomed",
-    avatar:
-      "../assets/images/images/Dermomed img/dermo argan-min.jpg",
+    avatar: "../assets/images/images/Dermomed img/dermo argan-min.jpg",
     desc: "Gel za tuširanje \n Argan, 300ml",
   },
   {
@@ -814,8 +774,7 @@ let products = [
   },
   {
     name: "Dermomed",
-    avatar:
-      "../assets/images/images/Dermomed img/dermo dragon fruit-min.jpg",
+    avatar: "../assets/images/images/Dermomed img/dermo dragon fruit-min.jpg",
     desc: "Gel za tuširanje \n Dragon Fruit, 300ml",
   },
   {
@@ -826,20 +785,17 @@ let products = [
   },
   {
     name: "Dermomed",
-    avatar:
-      "../assets/images/images/Dermomed img/dermo muschio bianco-min.jpg",
+    avatar: "../assets/images/images/Dermomed img/dermo muschio bianco-min.jpg",
     desc: "Gel za tuširanje \n Mushio Bianco, 300ml",
   },
   {
     name: "Dermomed",
-    avatar:
-      "../assets/images/images/Dermomed img/dermo talco & iris-min.jpg",
+    avatar: "../assets/images/images/Dermomed img/dermo talco & iris-min.jpg",
     desc: "Gel za tuširanje \n Talco & Iris, 300ml",
   },
   {
     name: "Dermomed",
-    avatar:
-      "../assets/images/images/Dermomed img/dermo white musk-min.jpg",
+    avatar: "../assets/images/images/Dermomed img/dermo white musk-min.jpg",
     desc: "Gel za tuširanje \n White Musk, 300ml",
   },
   {
@@ -856,8 +812,7 @@ let products = [
   },
   {
     name: "Dermomed",
-    avatar:
-      "../assets/images/images/Dermomed img/dermo ts argan oil-min.jpg",
+    avatar: "../assets/images/images/Dermomed img/dermo ts argan oil-min.jpg",
     desc: "Tečni sapun \n Argan oil, 150ml",
   },
   {
@@ -874,8 +829,7 @@ let products = [
   },
   {
     name: "Dermomed",
-    avatar:
-      "../assets/images/images/Dermomed img/dermo ts sensitive-min.jpg",
+    avatar: "../assets/images/images/Dermomed img/dermo ts sensitive-min.jpg",
     desc: "Tečni sapun \n Sensitive, 150ml",
   },
   {
@@ -885,7 +839,7 @@ let products = [
     desc: "Tečni sapun \n Talco & Iris, 150ml",
   },
 
-   {
+  {
     name: "Palmolive",
     avatar:
       "../assets/images/images/Palmolive img/Palmolive krema za brijanje - classic-min.jpg",
@@ -993,15 +947,16 @@ let products = [
       "../assets/images/images/Palmolive img/Palmolive tecni sapun - orhideja-min.jpg",
     desc: "Tečni sapun \n Orhidea, 750ml",
   },
-
-
-
 ];
 
 let renderList = document.querySelector(".main");
 let select = document.querySelector("#select");
 let productsLi = document.querySelector("#pro");
-const toTop = document.querySelector('.go-top')
+const toTop = document.querySelector(".go-top");
+const enterForm = document.querySelector("#enter");
+const codeInput = document.getElementById("code");
+const modal = document.querySelector(".modal");
+const error = document.getElementById("error");
 
 select.addEventListener("change", () => {
   let selectValue = select.value;
@@ -1025,7 +980,7 @@ const render = (product) => {
   name.innerText = product.name;
   let img = document.createElement("img");
   img.src = product.avatar;
-  img.alt = 'kozmeticki-proizvodi-licna-kozmetika'
+  img.alt = "kozmeticki-proizvodi-licna-kozmetika";
   let txt = document.createElement("p");
   txt.innerText = product.desc;
 
@@ -1035,18 +990,32 @@ const render = (product) => {
   return articles;
 };
 
-const ispisisve=()=>{
-    products.forEach((element)=>{
-        renderList.append(render(element));
-    })
-    return articles
-}
+const ispisisve = () => {
+  products.forEach((element) => {
+    renderList.append(render(element));
+  });
+  return articles;
+};
 
-ispisisve()
+ispisisve();
 
-toTop.addEventListener('click', ()=> {
+const checkCode = (e) => {
+  e.preventDefault();
+  console.log(code.value);
+
+  if (code.value === "12345") {
+    modal.classList.add("remove");
+  } else {
+    code.style.border = "2px solid red";
+    error.innerHTML = `Pogresan unos! Ukoliko želite pristup našem cenovniku  <a href="contacts.html">kontaktirajte nas.</a>`;
+  }
+};
+
+enterForm.addEventListener("submit", checkCode);
+
+toTop.addEventListener("click", () => {
   window.scrollTo({
     left: 0,
-    top: 0
-  })
-})
+    top: 0,
+  });
+});

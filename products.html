@@ -50,11 +50,23 @@
       </nav>
     </header>
     <main class="main" id="product-bg">
+      <div class="modal">
+        <div class="modal__container">
+          <h2>Unesi kod</h2>
+          <form id="enter">
+            <input type="text" placeholder="Kod..." id="code" />
+            <input type="submit" value="potvrdi" />
+          </form>
+          <h4 id="error"></h4>
+        </div>
+      </div>
       <div class="full-price">
         <p>
-          Ovde možete preuzeti kompletan <a href="cenovnik.xls">cenovnik</a>
+          Ovde možete preuzeti kompletan
+          <a href="cenovnik.xlsx" id="cenovnik">cenovnik</a>
         </p>
       </div>
+
       <div class="select">
         <select name="products" id="select">
           <option value="all" selected class="option">Izaberi</option>
@@ -75,7 +87,7 @@
     <footer class="footer">
       <div class="footer-links">
         <div>
-          <a href="https://quantoxconf.com/">
+          <a href="https://www.instagram.com/hemera_ms/">
             <img src="../assets/images/images/instagram.png" alt="instagram" />
           </a>
         </div>
