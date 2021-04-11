@@ -5,7 +5,7 @@ const error = document.getElementById("error");
 
 const checkCode = (e) => {
   e.preventDefault();
-  console.log(code.value);
+  console.log(code);
 
   if (code.value === "12345") {
     e.preventDefault();
