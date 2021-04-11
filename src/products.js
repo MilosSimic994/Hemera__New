@@ -953,10 +953,6 @@ let renderList = document.querySelector(".main");
 let select = document.querySelector("#select");
 let productsLi = document.querySelector("#pro");
 const toTop = document.querySelector(".go-top");
-const enterForm = document.querySelector("#enter");
-const codeInput = document.getElementById("code");
-const modal = document.querySelector(".modal");
-const error = document.getElementById("error");
 
 select.addEventListener("change", () => {
   let selectValue = select.value;
@@ -998,20 +994,6 @@ const ispisisve = () => {
 };
 
 ispisisve();
-
-const checkCode = (e) => {
-  e.preventDefault();
-  console.log(code.value);
-
-  if (code.value === "12345") {
-    modal.classList.add("remove");
-  } else {
-    code.style.border = "2px solid red";
-    error.innerHTML = `Pogresan unos! Ukoliko želite pristup našem cenovniku  <a href="contacts.html">kontaktirajte nas.</a>`;
-  }
-};
-
-enterForm.addEventListener("submit", checkCode);
 
 toTop.addEventListener("click", () => {
   window.scrollTo({
